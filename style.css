@@ -1,13 +1,111 @@
-p{
-	font-size: 18px;
-	font-style: normal;
-	color: red;
+/*Stylesheet for Float: Angelina Jolie Edition!*/
+
+#background{
+	background-image: url('http://nice-cool-pics.com/data/media/22/angelina_jolie__photoshoot.jpg');
+	background-repeat: no-repeat;
+	background-color: black;
+	position:absolute;
+	min-height: 100%;
+	height: auto;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	overflow: auto;
 }
-.red{
-	font-size: 40px;
-	color: red;
+
+#menubar {
+	float: left;
+	clear: both;
+	font-size: 30px;
 }
-.blue{
+
+#menubar li{
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-	color: blue;
+	display:inline-block;
+	color: white;
+	background-color: #000047;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	float: left;
+	opacity: .8;
 }
+
+#menubar li:hover{
+	background-color: #E4E4EB;
+	color: gray;
+}
+
+#moremenu{
+	position:fixed;
+	left: 570px;
+	top: 100px;
+}
+
+#moremenu li{
+	display: block; 
+	float: left;
+	clear: both;
+	width: 50px;
+	height: 20px;
+	background-color: white;
+	color: gray;
+}
+
+a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*CSS for index.html*/
+
+.title{
+	position: relative;
+	width: 300px;
+	left: 120px;
+	top: 150px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+/*CSS for about.html*/
+
+.about_text{
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	width: 80%;
+	height: auto;
+	padding: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.see_more{
+	color: #000047;
+	font-size: 20px;
+}
+
+/*CSS for photogallery.html*/
+
+.gallery{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 80%;
+	height: auto;
+	padding: 30px;
+}
+
+#mainimage img{
+	height: 200px;
+	width: auto;
+
+}
+
+
