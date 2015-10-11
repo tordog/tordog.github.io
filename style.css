@@ -1,9 +1,10 @@
 /*Stylesheet for Float: Angelina Jolie Edition!*/
 
 #background{
-	background-image: url('http://nice-cool-pics.com/data/media/22/angelina_jolie__photoshoot.jpg');
+	background-image: url('./images/duveneck.jpg');
 	background-repeat: no-repeat;
 	background-color: black;
+	background-size: cover;
 	position:absolute;
 	min-height: 100%;
 	height: auto;
@@ -55,38 +56,52 @@
 	color: gray;
 }
 
-a:visited{
+/*a:visited{
 	text-decoration: none;
 	color: white;
-}
+}*/
 
 h1{
 	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
 }
 
 
 /*CSS for index.html*/
 
 .title{
-	position: relative;
-	width: 300px;
-	left: 120px;
-	top: 150px;
-	font-family: 'Cinzel Decorative', cursive;
+	position: absolute;
+	width: 500px;
+	padding-left: 60px;
+	top: 120px;
+	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
-	text-align: center;
+	text-align: left;
+	color: black;
+}
+
+.shortinfo{
+	font-size: 20px;
+	text-align: left;
+	float:left;
+	top: 0px;
+	position: absolute;
+	display: inline-block;
+	padding: 30px;
 }
 
 /*CSS for about.html*/
 
 .about_text{
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(240, 240, 240, 0.9);
 	color: black;
 	width: 80%;
 	height: auto;
 	padding: 30px;
 	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 }
+
 
 .see_more{
 	color: #000047;
@@ -97,15 +112,15 @@ h1{
 
 .gallery{
 	background-color: rgba(0, 0, 0, 0.8);
-	width: 80%;
+	width: 600px;
 	height: auto;
 	padding: 30px;
 }
 
-#mainimage img{
-	height: 200px;
-	width: auto;
-
+.whiteText{
+	color: white;
+	position: inherit;
+	top: 200px;
 }
 
 
